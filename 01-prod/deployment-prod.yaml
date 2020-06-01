@@ -1,0 +1,11 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: patch-demo
+spec:
+  replicas: 2
+  template:
+    spec:
+      containers:
+      - name: patch-demo-ctr
+        image: nginx:1.17
