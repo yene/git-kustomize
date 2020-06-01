@@ -8,4 +8,4 @@ spec:
     spec:
       containers:
       - name: patch-demo-ctr
-        image: nginx:1.17
+        image: nginx:1.18
