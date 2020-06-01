@@ -1,6 +1,6 @@
 # Git based Kustomize Deployment
 
-[yq](https://learnk8s.io/templating-yaml-with-code) changes the image version, kubectl deploys the kustomize overlay.
+[yq](https://github.com/mikefarah/yq/) changes the image version, kubectl deploys the kustomize overlay.
 
 
 * Build pipeline runs `update.sh`.
